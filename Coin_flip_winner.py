@@ -3,7 +3,7 @@ import random
 user_input = int(input("Enter a number 0 for heads and 1 for tails: "))
 random_side = random.randint(0,1)
 winner = random.randint(0,1)
-toss = ["tails", "heads"]
+toss = ["tails", "heads"
 
 
 if (random_side == user_input):
